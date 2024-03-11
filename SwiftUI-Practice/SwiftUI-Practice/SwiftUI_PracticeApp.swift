@@ -15,3 +15,4 @@ struct SwiftUI_PracticeApp: App {
         }
     }
 }
+
