@@ -14,6 +14,7 @@
 		BD835AF12B9ED10F002EDF04 /* TextBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD835AF02B9ED10F002EDF04 /* TextBasic.swift */; };
 		BD835AF52B9ED649002EDF04 /* ShapeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD835AF42B9ED649002EDF04 /* ShapeBasic.swift */; };
 		BDC4BCAF2B9EE10E00BB76E2 /* ColorBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4BCAE2B9EE10E00BB76E2 /* ColorBasic.swift */; };
+		BDC4BCB22B9EE71800BB76E2 /* GradientBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4BCB12B9EE71800BB76E2 /* GradientBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		BD835AF02B9ED10F002EDF04 /* TextBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBasic.swift; sourceTree = "<group>"; };
 		BD835AF42B9ED649002EDF04 /* ShapeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeBasic.swift; sourceTree = "<group>"; };
 		BDC4BCAE2B9EE10E00BB76E2 /* ColorBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBasic.swift; sourceTree = "<group>"; };
+		BDC4BCB12B9EE71800BB76E2 /* GradientBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				BD835AE42B9ECF6A002EDF04 /* ContentView.swift */,
 				BD835AE62B9ECF6B002EDF04 /* Assets.xcassets */,
 				BD835AE82B9ECF6B002EDF04 /* Preview Content */,
+				BDC4BCB12B9EE71800BB76E2 /* GradientBasic.swift */,
 			);
 			path = "SwiftUI-Practice";
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC4BCB22B9EE71800BB76E2 /* GradientBasic.swift in Sources */,
 				BD835AF12B9ED10F002EDF04 /* TextBasic.swift in Sources */,
 				BD835AE52B9ECF6A002EDF04 /* ContentView.swift in Sources */,
 				BD835AF52B9ED649002EDF04 /* ShapeBasic.swift in Sources */,
