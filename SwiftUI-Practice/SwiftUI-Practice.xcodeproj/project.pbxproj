@@ -12,6 +12,7 @@
 		BD835AE72B9ECF6B002EDF04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD835AE62B9ECF6B002EDF04 /* Assets.xcassets */; };
 		BD835AEA2B9ECF6B002EDF04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD835AE92B9ECF6B002EDF04 /* Preview Assets.xcassets */; };
 		BD835AF12B9ED10F002EDF04 /* TextBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD835AF02B9ED10F002EDF04 /* TextBasic.swift */; };
+		BD835AF52B9ED649002EDF04 /* ShapeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD835AF42B9ED649002EDF04 /* ShapeBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		BD835AE62B9ECF6B002EDF04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD835AE92B9ECF6B002EDF04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD835AF02B9ED10F002EDF04 /* TextBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBasic.swift; sourceTree = "<group>"; };
+		BD835AF42B9ED649002EDF04 /* ShapeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +55,10 @@
 		BD835AE12B9ECF6A002EDF04 /* SwiftUI-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				BD835AF32B9ED636002EDF04 /* Shape */,
+				BD835AF22B9ED62E002EDF04 /* Text */,
 				BD835AE22B9ECF6A002EDF04 /* SwiftUI_PracticeApp.swift */,
 				BD835AE42B9ECF6A002EDF04 /* ContentView.swift */,
-				BD835AF02B9ED10F002EDF04 /* TextBasic.swift */,
 				BD835AE62B9ECF6B002EDF04 /* Assets.xcassets */,
 				BD835AE82B9ECF6B002EDF04 /* Preview Content */,
 			);
@@ -68,6 +71,22 @@
 				BD835AE92B9ECF6B002EDF04 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD835AF22B9ED62E002EDF04 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				BD835AF02B9ED10F002EDF04 /* TextBasic.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		BD835AF32B9ED636002EDF04 /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				BD835AF42B9ED649002EDF04 /* ShapeBasic.swift */,
+			);
+			path = Shape;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +161,7 @@
 			files = (
 				BD835AF12B9ED10F002EDF04 /* TextBasic.swift in Sources */,
 				BD835AE52B9ECF6A002EDF04 /* ContentView.swift in Sources */,
+				BD835AF52B9ED649002EDF04 /* ShapeBasic.swift in Sources */,
 				BD835AE32B9ECF6A002EDF04 /* SwiftUI_PracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
