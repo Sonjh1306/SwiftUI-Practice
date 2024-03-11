@@ -13,6 +13,7 @@
 		BD835AEA2B9ECF6B002EDF04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD835AE92B9ECF6B002EDF04 /* Preview Assets.xcassets */; };
 		BD835AF12B9ED10F002EDF04 /* TextBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD835AF02B9ED10F002EDF04 /* TextBasic.swift */; };
 		BD835AF52B9ED649002EDF04 /* ShapeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD835AF42B9ED649002EDF04 /* ShapeBasic.swift */; };
+		BDC4BCAF2B9EE10E00BB76E2 /* ColorBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4BCAE2B9EE10E00BB76E2 /* ColorBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		BD835AE92B9ECF6B002EDF04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD835AF02B9ED10F002EDF04 /* TextBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBasic.swift; sourceTree = "<group>"; };
 		BD835AF42B9ED649002EDF04 /* ShapeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeBasic.swift; sourceTree = "<group>"; };
+		BDC4BCAE2B9EE10E00BB76E2 /* ColorBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		BD835AE12B9ECF6A002EDF04 /* SwiftUI-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				BDC4BCB02B9EE40C00BB76E2 /* Color */,
 				BD835AF32B9ED636002EDF04 /* Shape */,
 				BD835AF22B9ED62E002EDF04 /* Text */,
 				BD835AE22B9ECF6A002EDF04 /* SwiftUI_PracticeApp.swift */,
@@ -87,6 +90,14 @@
 				BD835AF42B9ED649002EDF04 /* ShapeBasic.swift */,
 			);
 			path = Shape;
+			sourceTree = "<group>";
+		};
+		BDC4BCB02B9EE40C00BB76E2 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				BDC4BCAE2B9EE10E00BB76E2 /* ColorBasic.swift */,
+			);
+			path = Color;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +173,7 @@
 				BD835AF12B9ED10F002EDF04 /* TextBasic.swift in Sources */,
 				BD835AE52B9ECF6A002EDF04 /* ContentView.swift in Sources */,
 				BD835AF52B9ED649002EDF04 /* ShapeBasic.swift in Sources */,
+				BDC4BCAF2B9EE10E00BB76E2 /* ColorBasic.swift in Sources */,
 				BD835AE32B9ECF6A002EDF04 /* SwiftUI_PracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
