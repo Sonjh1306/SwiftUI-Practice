@@ -13,6 +13,7 @@
 		BD835AEA2B9ECF6B002EDF04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD835AE92B9ECF6B002EDF04 /* Preview Assets.xcassets */; };
 		BD835AF12B9ED10F002EDF04 /* TextBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD835AF02B9ED10F002EDF04 /* TextBasic.swift */; };
 		BD835AF52B9ED649002EDF04 /* ShapeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD835AF42B9ED649002EDF04 /* ShapeBasic.swift */; };
+		BD9FD3612BA015BC005B81FC /* ImageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9FD3602BA015BC005B81FC /* ImageBasic.swift */; };
 		BDC4BCAF2B9EE10E00BB76E2 /* ColorBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4BCAE2B9EE10E00BB76E2 /* ColorBasic.swift */; };
 		BDC4BCB22B9EE71800BB76E2 /* GradientBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4BCB12B9EE71800BB76E2 /* GradientBasic.swift */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,7 @@
 		BD835AE92B9ECF6B002EDF04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD835AF02B9ED10F002EDF04 /* TextBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBasic.swift; sourceTree = "<group>"; };
 		BD835AF42B9ED649002EDF04 /* ShapeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeBasic.swift; sourceTree = "<group>"; };
+		BD9FD3602BA015BC005B81FC /* ImageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBasic.swift; sourceTree = "<group>"; };
 		BDC4BCAE2B9EE10E00BB76E2 /* ColorBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBasic.swift; sourceTree = "<group>"; };
 		BDC4BCB12B9EE71800BB76E2 /* GradientBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,6 +61,8 @@
 		BD835AE12B9ECF6A002EDF04 /* SwiftUI-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				BD9FD35F2BA01535005B81FC /* Image */,
+				BD9FD35E2BA01528005B81FC /* Gradient */,
 				BDC4BCB02B9EE40C00BB76E2 /* Color */,
 				BD835AF32B9ED636002EDF04 /* Shape */,
 				BD835AF22B9ED62E002EDF04 /* Text */,
@@ -66,7 +70,6 @@
 				BD835AE42B9ECF6A002EDF04 /* ContentView.swift */,
 				BD835AE62B9ECF6B002EDF04 /* Assets.xcassets */,
 				BD835AE82B9ECF6B002EDF04 /* Preview Content */,
-				BDC4BCB12B9EE71800BB76E2 /* GradientBasic.swift */,
 			);
 			path = "SwiftUI-Practice";
 			sourceTree = "<group>";
@@ -93,6 +96,22 @@
 				BD835AF42B9ED649002EDF04 /* ShapeBasic.swift */,
 			);
 			path = Shape;
+			sourceTree = "<group>";
+		};
+		BD9FD35E2BA01528005B81FC /* Gradient */ = {
+			isa = PBXGroup;
+			children = (
+				BDC4BCB12B9EE71800BB76E2 /* GradientBasic.swift */,
+			);
+			path = Gradient;
+			sourceTree = "<group>";
+		};
+		BD9FD35F2BA01535005B81FC /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				BD9FD3602BA015BC005B81FC /* ImageBasic.swift */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 		BDC4BCB02B9EE40C00BB76E2 /* Color */ = {
@@ -178,6 +197,7 @@
 				BD835AE52B9ECF6A002EDF04 /* ContentView.swift in Sources */,
 				BD835AF52B9ED649002EDF04 /* ShapeBasic.swift in Sources */,
 				BDC4BCAF2B9EE10E00BB76E2 /* ColorBasic.swift in Sources */,
+				BD9FD3612BA015BC005B81FC /* ImageBasic.swift in Sources */,
 				BD835AE32B9ECF6A002EDF04 /* SwiftUI_PracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
