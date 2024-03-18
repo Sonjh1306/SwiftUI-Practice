@@ -21,6 +21,7 @@
 		BDC4BCB22B9EE71800BB76E2 /* GradientBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4BCB12B9EE71800BB76E2 /* GradientBasic.swift */; };
 		BDD00DC72BA81B2A00178CCA /* PaddingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD00DC62BA81B2A00178CCA /* PaddingBasic.swift */; };
 		BDD00DCA2BA820DD00178CCA /* SpacerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD00DC92BA820DD00178CCA /* SpacerBasic.swift */; };
+		BDD00DCD2BA8294600178CCA /* ScrollViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD00DCC2BA8294600178CCA /* ScrollViewBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		BDC4BCB12B9EE71800BB76E2 /* GradientBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBasic.swift; sourceTree = "<group>"; };
 		BDD00DC62BA81B2A00178CCA /* PaddingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingBasic.swift; sourceTree = "<group>"; };
 		BDD00DC92BA820DD00178CCA /* SpacerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerBasic.swift; sourceTree = "<group>"; };
+		BDD00DCC2BA8294600178CCA /* ScrollViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		BD835AE12B9ECF6A002EDF04 /* SwiftUI-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				BDD00DCB2BA8293700178CCA /* ScrollView */,
 				BDD00DC82BA820C600178CCA /* Spacer */,
 				BDD00DC52BA81B1F00178CCA /* Padding */,
 				BD9FD3682BA0380D005B81FC /* Stack */,
@@ -177,6 +180,14 @@
 			path = Spacer;
 			sourceTree = "<group>";
 		};
+		BDD00DCB2BA8293700178CCA /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				BDD00DCC2BA8294600178CCA /* ScrollViewBasic.swift */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -258,6 +269,7 @@
 				BDD00DCA2BA820DD00178CCA /* SpacerBasic.swift in Sources */,
 				BDC4BCAF2B9EE10E00BB76E2 /* ColorBasic.swift in Sources */,
 				BD9FD3612BA015BC005B81FC /* ImageBasic.swift in Sources */,
+				BDD00DCD2BA8294600178CCA /* ScrollViewBasic.swift in Sources */,
 				BD835AE32B9ECF6A002EDF04 /* SwiftUI_PracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
