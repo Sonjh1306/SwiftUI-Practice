@@ -19,11 +19,13 @@
 		BD9FD36A2BA03815005B81FC /* StackBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9FD3692BA03815005B81FC /* StackBasic.swift */; };
 		BDC424E72BA918700050BFBC /* InitenumBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC424E62BA918700050BFBC /* InitenumBasic.swift */; };
 		BDC424EA2BA91FFE0050BFBC /* ForEachBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC424E92BA91FFE0050BFBC /* ForEachBasic.swift */; };
+		BDC424ED2BA922780050BFBC /* LazyGridBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC424EC2BA922780050BFBC /* LazyGridBasic.swift */; };
 		BDC4BCAF2B9EE10E00BB76E2 /* ColorBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4BCAE2B9EE10E00BB76E2 /* ColorBasic.swift */; };
 		BDC4BCB22B9EE71800BB76E2 /* GradientBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4BCB12B9EE71800BB76E2 /* GradientBasic.swift */; };
 		BDD00DC72BA81B2A00178CCA /* PaddingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD00DC62BA81B2A00178CCA /* PaddingBasic.swift */; };
 		BDD00DCA2BA820DD00178CCA /* SpacerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD00DC92BA820DD00178CCA /* SpacerBasic.swift */; };
 		BDD00DCD2BA8294600178CCA /* ScrollViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD00DCC2BA8294600178CCA /* ScrollViewBasic.swift */; };
+		BDDF6F632BB28B6400934A86 /* IgnoreSafeAreaBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF6F622BB28B6400934A86 /* IgnoreSafeAreaBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,11 +42,13 @@
 		BD9FD3692BA03815005B81FC /* StackBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackBasic.swift; sourceTree = "<group>"; };
 		BDC424E62BA918700050BFBC /* InitenumBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitenumBasic.swift; sourceTree = "<group>"; };
 		BDC424E92BA91FFE0050BFBC /* ForEachBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBasic.swift; sourceTree = "<group>"; };
+		BDC424EC2BA922780050BFBC /* LazyGridBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridBasic.swift; sourceTree = "<group>"; };
 		BDC4BCAE2B9EE10E00BB76E2 /* ColorBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBasic.swift; sourceTree = "<group>"; };
 		BDC4BCB12B9EE71800BB76E2 /* GradientBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBasic.swift; sourceTree = "<group>"; };
 		BDD00DC62BA81B2A00178CCA /* PaddingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingBasic.swift; sourceTree = "<group>"; };
 		BDD00DC92BA820DD00178CCA /* SpacerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerBasic.swift; sourceTree = "<group>"; };
 		BDD00DCC2BA8294600178CCA /* ScrollViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBasic.swift; sourceTree = "<group>"; };
+		BDDF6F622BB28B6400934A86 /* IgnoreSafeAreaBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreSafeAreaBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		BD835AE12B9ECF6A002EDF04 /* SwiftUI-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				BDDF6F612BB28B3300934A86 /* SafeArea */,
+				BDC424EB2BA9226E0050BFBC /* LazyGrid */,
 				BDC424E82BA91FEF0050BFBC /* ForEach */,
 				BDC424E52BA918330050BFBC /* Init, enum */,
 				BDD00DCB2BA8293700178CCA /* ScrollView */,
@@ -178,6 +184,14 @@
 			path = ForEach;
 			sourceTree = "<group>";
 		};
+		BDC424EB2BA9226E0050BFBC /* LazyGrid */ = {
+			isa = PBXGroup;
+			children = (
+				BDC424EC2BA922780050BFBC /* LazyGridBasic.swift */,
+			);
+			path = LazyGrid;
+			sourceTree = "<group>";
+		};
 		BDC4BCB02B9EE40C00BB76E2 /* Color */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +222,14 @@
 				BDD00DCC2BA8294600178CCA /* ScrollViewBasic.swift */,
 			);
 			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		BDDF6F612BB28B3300934A86 /* SafeArea */ = {
+			isa = PBXGroup;
+			children = (
+				BDDF6F622BB28B6400934A86 /* IgnoreSafeAreaBasic.swift */,
+			);
+			path = SafeArea;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +308,7 @@
 				BDC424E72BA918700050BFBC /* InitenumBasic.swift in Sources */,
 				BD835AF12B9ED10F002EDF04 /* TextBasic.swift in Sources */,
 				BD835AE52B9ECF6A002EDF04 /* ContentView.swift in Sources */,
+				BDC424ED2BA922780050BFBC /* LazyGridBasic.swift in Sources */,
 				BD9FD3662BA02F92005B81FC /* BackgroundOverlayBasic.swift in Sources */,
 				BDD00DC72BA81B2A00178CCA /* PaddingBasic.swift in Sources */,
 				BD835AF52B9ED649002EDF04 /* ShapeBasic.swift in Sources */,
@@ -293,6 +316,7 @@
 				BDC4BCAF2B9EE10E00BB76E2 /* ColorBasic.swift in Sources */,
 				BD9FD3612BA015BC005B81FC /* ImageBasic.swift in Sources */,
 				BDC424EA2BA91FFE0050BFBC /* ForEachBasic.swift in Sources */,
+				BDDF6F632BB28B6400934A86 /* IgnoreSafeAreaBasic.swift in Sources */,
 				BDD00DCD2BA8294600178CCA /* ScrollViewBasic.swift in Sources */,
 				BD835AE32B9ECF6A002EDF04 /* SwiftUI_PracticeApp.swift in Sources */,
 			);
