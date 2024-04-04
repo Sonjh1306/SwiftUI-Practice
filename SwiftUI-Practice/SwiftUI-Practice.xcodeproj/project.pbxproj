@@ -17,6 +17,7 @@
 		BD9FD3642BA017C7005B81FC /* FrameBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9FD3632BA017C7005B81FC /* FrameBasic.swift */; };
 		BD9FD3662BA02F92005B81FC /* BackgroundOverlayBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9FD3652BA02F92005B81FC /* BackgroundOverlayBasic.swift */; };
 		BD9FD36A2BA03815005B81FC /* StackBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9FD3692BA03815005B81FC /* StackBasic.swift */; };
+		BDB73D862BBE3C9F0097E2BF /* ConditionalBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB73D852BBE3C9F0097E2BF /* ConditionalBasic.swift */; };
 		BDC424E72BA918700050BFBC /* InitenumBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC424E62BA918700050BFBC /* InitenumBasic.swift */; };
 		BDC424EA2BA91FFE0050BFBC /* ForEachBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC424E92BA91FFE0050BFBC /* ForEachBasic.swift */; };
 		BDC424ED2BA922780050BFBC /* LazyGridBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC424EC2BA922780050BFBC /* LazyGridBasic.swift */; };
@@ -47,6 +48,7 @@
 		BD9FD3632BA017C7005B81FC /* FrameBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBasic.swift; sourceTree = "<group>"; };
 		BD9FD3652BA02F92005B81FC /* BackgroundOverlayBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundOverlayBasic.swift; sourceTree = "<group>"; };
 		BD9FD3692BA03815005B81FC /* StackBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackBasic.swift; sourceTree = "<group>"; };
+		BDB73D852BBE3C9F0097E2BF /* ConditionalBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalBasic.swift; sourceTree = "<group>"; };
 		BDC424E62BA918700050BFBC /* InitenumBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitenumBasic.swift; sourceTree = "<group>"; };
 		BDC424E92BA91FFE0050BFBC /* ForEachBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBasic.swift; sourceTree = "<group>"; };
 		BDC424EC2BA922780050BFBC /* LazyGridBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridBasic.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		BD835AE12B9ECF6A002EDF04 /* SwiftUI-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				BDB73D842BBE3C900097E2BF /* Conditional */,
 				BDF5B5A02BBBF31F00011F79 /* Component */,
 				BDF5B5A32BBBF58100011F79 /* Binding */,
 				BDF5B59D2BBBF30100011F79 /* ExtractSubView */,
@@ -186,6 +189,14 @@
 				BD9FD3692BA03815005B81FC /* StackBasic.swift */,
 			);
 			path = Stack;
+			sourceTree = "<group>";
+		};
+		BDB73D842BBE3C900097E2BF /* Conditional */ = {
+			isa = PBXGroup;
+			children = (
+				BDB73D852BBE3C9F0097E2BF /* ConditionalBasic.swift */,
+			);
+			path = Conditional;
 			sourceTree = "<group>";
 		};
 		BDC424E52BA918330050BFBC /* Init, enum */ = {
@@ -380,6 +391,7 @@
 				BDC424ED2BA922780050BFBC /* LazyGridBasic.swift in Sources */,
 				BD9FD3662BA02F92005B81FC /* BackgroundOverlayBasic.swift in Sources */,
 				BDD00DC72BA81B2A00178CCA /* PaddingBasic.swift in Sources */,
+				BDB73D862BBE3C9F0097E2BF /* ConditionalBasic.swift in Sources */,
 				BD835AF52B9ED649002EDF04 /* ShapeBasic.swift in Sources */,
 				BDD00DCA2BA820DD00178CCA /* SpacerBasic.swift in Sources */,
 				BDC4BCAF2B9EE10E00BB76E2 /* ColorBasic.swift in Sources */,
