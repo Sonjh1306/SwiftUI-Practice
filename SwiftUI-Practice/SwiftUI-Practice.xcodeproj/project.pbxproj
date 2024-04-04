@@ -18,6 +18,7 @@
 		BD9FD3662BA02F92005B81FC /* BackgroundOverlayBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9FD3652BA02F92005B81FC /* BackgroundOverlayBasic.swift */; };
 		BD9FD36A2BA03815005B81FC /* StackBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9FD3692BA03815005B81FC /* StackBasic.swift */; };
 		BDB73D862BBE3C9F0097E2BF /* ConditionalBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB73D852BBE3C9F0097E2BF /* ConditionalBasic.swift */; };
+		BDB73D892BBE3F0D0097E2BF /* TernaryOperatorsBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB73D882BBE3F0D0097E2BF /* TernaryOperatorsBasic.swift */; };
 		BDC424E72BA918700050BFBC /* InitenumBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC424E62BA918700050BFBC /* InitenumBasic.swift */; };
 		BDC424EA2BA91FFE0050BFBC /* ForEachBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC424E92BA91FFE0050BFBC /* ForEachBasic.swift */; };
 		BDC424ED2BA922780050BFBC /* LazyGridBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC424EC2BA922780050BFBC /* LazyGridBasic.swift */; };
@@ -49,6 +50,7 @@
 		BD9FD3652BA02F92005B81FC /* BackgroundOverlayBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundOverlayBasic.swift; sourceTree = "<group>"; };
 		BD9FD3692BA03815005B81FC /* StackBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackBasic.swift; sourceTree = "<group>"; };
 		BDB73D852BBE3C9F0097E2BF /* ConditionalBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalBasic.swift; sourceTree = "<group>"; };
+		BDB73D882BBE3F0D0097E2BF /* TernaryOperatorsBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryOperatorsBasic.swift; sourceTree = "<group>"; };
 		BDC424E62BA918700050BFBC /* InitenumBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitenumBasic.swift; sourceTree = "<group>"; };
 		BDC424E92BA91FFE0050BFBC /* ForEachBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBasic.swift; sourceTree = "<group>"; };
 		BDC424EC2BA922780050BFBC /* LazyGridBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridBasic.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		BD835AE12B9ECF6A002EDF04 /* SwiftUI-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				BDB73D872BBE3EF60097E2BF /* TernaryOperators */,
 				BDB73D842BBE3C900097E2BF /* Conditional */,
 				BDF5B5A02BBBF31F00011F79 /* Component */,
 				BDF5B5A32BBBF58100011F79 /* Binding */,
@@ -197,6 +200,14 @@
 				BDB73D852BBE3C9F0097E2BF /* ConditionalBasic.swift */,
 			);
 			path = Conditional;
+			sourceTree = "<group>";
+		};
+		BDB73D872BBE3EF60097E2BF /* TernaryOperators */ = {
+			isa = PBXGroup;
+			children = (
+				BDB73D882BBE3F0D0097E2BF /* TernaryOperatorsBasic.swift */,
+			);
+			path = TernaryOperators;
 			sourceTree = "<group>";
 		};
 		BDC424E52BA918330050BFBC /* Init, enum */ = {
@@ -384,6 +395,7 @@
 			files = (
 				BD9FD3642BA017C7005B81FC /* FrameBasic.swift in Sources */,
 				BD9FD36A2BA03815005B81FC /* StackBasic.swift in Sources */,
+				BDB73D892BBE3F0D0097E2BF /* TernaryOperatorsBasic.swift in Sources */,
 				BDC4BCB22B9EE71800BB76E2 /* GradientBasic.swift in Sources */,
 				BDC424E72BA918700050BFBC /* InitenumBasic.swift in Sources */,
 				BD835AF12B9ED10F002EDF04 /* TextBasic.swift in Sources */,
