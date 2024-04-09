@@ -33,6 +33,8 @@
 		BDDA5C212BBA7824002092EE /* ExtractViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA5C202BBA7824002092EE /* ExtractViewBasic.swift */; };
 		BDDF6F632BB28B6400934A86 /* IgnoreSafeAreaBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF6F622BB28B6400934A86 /* IgnoreSafeAreaBasic.swift */; };
 		BDDF6F662BB291F500934A86 /* ButtonBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF6F652BB291F500934A86 /* ButtonBasic.swift */; };
+		BDE5FFAD2BC52CA2003A7C86 /* SheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5FFAC2BC52CA2003A7C86 /* SheetBasic.swift */; };
+		BDE5FFAF2BC52D02003A7C86 /* SheetBasic2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5FFAE2BC52D02003A7C86 /* SheetBasic2.swift */; };
 		BDF5B59F2BBBF31600011F79 /* ExtractSubViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B59E2BBBF31600011F79 /* ExtractSubViewBasic.swift */; };
 		BDF5B5A22BBBF37100011F79 /* ItemBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B5A12BBBF37100011F79 /* ItemBasic.swift */; };
 		BDF5B5A52BBBF59500011F79 /* BindingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B5A42BBBF59500011F79 /* BindingBasic.swift */; };
@@ -67,6 +69,8 @@
 		BDDA5C202BBA7824002092EE /* ExtractViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractViewBasic.swift; sourceTree = "<group>"; };
 		BDDF6F622BB28B6400934A86 /* IgnoreSafeAreaBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreSafeAreaBasic.swift; sourceTree = "<group>"; };
 		BDDF6F652BB291F500934A86 /* ButtonBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBasic.swift; sourceTree = "<group>"; };
+		BDE5FFAC2BC52CA2003A7C86 /* SheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetBasic.swift; sourceTree = "<group>"; };
+		BDE5FFAE2BC52D02003A7C86 /* SheetBasic2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetBasic2.swift; sourceTree = "<group>"; };
 		BDF5B59E2BBBF31600011F79 /* ExtractSubViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubViewBasic.swift; sourceTree = "<group>"; };
 		BDF5B5A12BBBF37100011F79 /* ItemBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemBasic.swift; sourceTree = "<group>"; };
 		BDF5B5A42BBBF59500011F79 /* BindingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBasic.swift; sourceTree = "<group>"; };
@@ -103,6 +107,7 @@
 		BD835AE12B9ECF6A002EDF04 /* SwiftUI-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				BDE5FFAB2BC52C8E003A7C86 /* Sheet */,
 				BDB73D8D2BBE6BBF0097E2BF /* Transition */,
 				BDB73D8A2BBE48610097E2BF /* Animation */,
 				BDB73D872BBE3EF60097E2BF /* TernaryOperators */,
@@ -320,6 +325,15 @@
 			path = Button;
 			sourceTree = "<group>";
 		};
+		BDE5FFAB2BC52C8E003A7C86 /* Sheet */ = {
+			isa = PBXGroup;
+			children = (
+				BDE5FFAC2BC52CA2003A7C86 /* SheetBasic.swift */,
+				BDE5FFAE2BC52D02003A7C86 /* SheetBasic2.swift */,
+			);
+			path = Sheet;
+			sourceTree = "<group>";
+		};
 		BDF5B59D2BBBF30100011F79 /* ExtractSubView */ = {
 			isa = PBXGroup;
 			children = (
@@ -419,12 +433,14 @@
 				BD9FD36A2BA03815005B81FC /* StackBasic.swift in Sources */,
 				BDB73D892BBE3F0D0097E2BF /* TernaryOperatorsBasic.swift in Sources */,
 				BDC4BCB22B9EE71800BB76E2 /* GradientBasic.swift in Sources */,
+				BDE5FFAD2BC52CA2003A7C86 /* SheetBasic.swift in Sources */,
 				BDC424E72BA918700050BFBC /* InitenumBasic.swift in Sources */,
 				BD835AF12B9ED10F002EDF04 /* TextBasic.swift in Sources */,
 				BD835AE52B9ECF6A002EDF04 /* ContentView.swift in Sources */,
 				BDC424ED2BA922780050BFBC /* LazyGridBasic.swift in Sources */,
 				BD9FD3662BA02F92005B81FC /* BackgroundOverlayBasic.swift in Sources */,
 				BDD00DC72BA81B2A00178CCA /* PaddingBasic.swift in Sources */,
+				BDE5FFAF2BC52D02003A7C86 /* SheetBasic2.swift in Sources */,
 				BDB73D862BBE3C9F0097E2BF /* ConditionalBasic.swift in Sources */,
 				BD835AF52B9ED649002EDF04 /* ShapeBasic.swift in Sources */,
 				BDD00DCA2BA820DD00178CCA /* SpacerBasic.swift in Sources */,
