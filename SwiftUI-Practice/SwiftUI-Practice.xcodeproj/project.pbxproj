@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BD7450872BDF674800C678CA /* NavigationBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7450862BDF674800C678CA /* NavigationBasic.swift */; };
 		BD7450892BDF679600C678CA /* SecondNatigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7450882BDF679600C678CA /* SecondNatigationView.swift */; };
+		BD74508C2BDF6F4000C678CA /* ListBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD74508B2BDF6F4000C678CA /* ListBasic.swift */; };
 		BD835AE32B9ECF6A002EDF04 /* SwiftUI_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD835AE22B9ECF6A002EDF04 /* SwiftUI_PracticeApp.swift */; };
 		BD835AE52B9ECF6A002EDF04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD835AE42B9ECF6A002EDF04 /* ContentView.swift */; };
 		BD835AE72B9ECF6B002EDF04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD835AE62B9ECF6B002EDF04 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 /* Begin PBXFileReference section */
 		BD7450862BDF674800C678CA /* NavigationBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBasic.swift; sourceTree = "<group>"; };
 		BD7450882BDF679600C678CA /* SecondNatigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondNatigationView.swift; sourceTree = "<group>"; };
+		BD74508B2BDF6F4000C678CA /* ListBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBasic.swift; sourceTree = "<group>"; };
 		BD835ADF2B9ECF6A002EDF04 /* SwiftUI-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD835AE22B9ECF6A002EDF04 /* SwiftUI_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PracticeApp.swift; sourceTree = "<group>"; };
 		BD835AE42B9ECF6A002EDF04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,14 @@
 			path = Navigation;
 			sourceTree = "<group>";
 		};
+		BD74508A2BDF6F3900C678CA /* List */ = {
+			isa = PBXGroup;
+			children = (
+				BD74508B2BDF6F4000C678CA /* ListBasic.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
 		BD835AD62B9ECF6A002EDF04 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +130,7 @@
 		BD835AE12B9ECF6A002EDF04 /* SwiftUI-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				BD74508A2BDF6F3900C678CA /* List */,
 				BD7450852BDF671000C678CA /* Navigation */,
 				BDE5FFAB2BC52C8E003A7C86 /* Sheet */,
 				BDB73D8D2BBE6BBF0097E2BF /* Transition */,
@@ -447,6 +458,7 @@
 				BD9FD36A2BA03815005B81FC /* StackBasic.swift in Sources */,
 				BDB73D892BBE3F0D0097E2BF /* TernaryOperatorsBasic.swift in Sources */,
 				BDC4BCB22B9EE71800BB76E2 /* GradientBasic.swift in Sources */,
+				BD74508C2BDF6F4000C678CA /* ListBasic.swift in Sources */,
 				BDE5FFAD2BC52CA2003A7C86 /* SheetBasic.swift in Sources */,
 				BDC424E72BA918700050BFBC /* InitenumBasic.swift in Sources */,
 				BD835AF12B9ED10F002EDF04 /* TextBasic.swift in Sources */,
