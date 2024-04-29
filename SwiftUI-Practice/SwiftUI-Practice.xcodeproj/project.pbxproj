@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD7450872BDF674800C678CA /* NavigationBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7450862BDF674800C678CA /* NavigationBasic.swift */; };
+		BD7450892BDF679600C678CA /* SecondNatigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7450882BDF679600C678CA /* SecondNatigationView.swift */; };
 		BD835AE32B9ECF6A002EDF04 /* SwiftUI_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD835AE22B9ECF6A002EDF04 /* SwiftUI_PracticeApp.swift */; };
 		BD835AE52B9ECF6A002EDF04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD835AE42B9ECF6A002EDF04 /* ContentView.swift */; };
 		BD835AE72B9ECF6B002EDF04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD835AE62B9ECF6B002EDF04 /* Assets.xcassets */; };
@@ -42,6 +44,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD7450862BDF674800C678CA /* NavigationBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBasic.swift; sourceTree = "<group>"; };
+		BD7450882BDF679600C678CA /* SecondNatigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondNatigationView.swift; sourceTree = "<group>"; };
 		BD835ADF2B9ECF6A002EDF04 /* SwiftUI-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD835AE22B9ECF6A002EDF04 /* SwiftUI_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PracticeApp.swift; sourceTree = "<group>"; };
 		BD835AE42B9ECF6A002EDF04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD7450852BDF671000C678CA /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				BD7450862BDF674800C678CA /* NavigationBasic.swift */,
+				BD7450882BDF679600C678CA /* SecondNatigationView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		BD835AD62B9ECF6A002EDF04 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +120,7 @@
 		BD835AE12B9ECF6A002EDF04 /* SwiftUI-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				BD7450852BDF671000C678CA /* Navigation */,
 				BDE5FFAB2BC52C8E003A7C86 /* Sheet */,
 				BDB73D8D2BBE6BBF0097E2BF /* Transition */,
 				BDB73D8A2BBE48610097E2BF /* Animation */,
@@ -443,6 +457,7 @@
 				BDE5FFAF2BC52D02003A7C86 /* SheetBasic2.swift in Sources */,
 				BDB73D862BBE3C9F0097E2BF /* ConditionalBasic.swift in Sources */,
 				BD835AF52B9ED649002EDF04 /* ShapeBasic.swift in Sources */,
+				BD7450872BDF674800C678CA /* NavigationBasic.swift in Sources */,
 				BDD00DCA2BA820DD00178CCA /* SpacerBasic.swift in Sources */,
 				BDC4BCAF2B9EE10E00BB76E2 /* ColorBasic.swift in Sources */,
 				BDDA5C1E2BBA75E9002092EE /* StateBasic.swift in Sources */,
@@ -454,6 +469,7 @@
 				BDF5B5A52BBBF59500011F79 /* BindingBasic.swift in Sources */,
 				BDB73D8F2BBE6BCA0097E2BF /* TransitionBasic.swift in Sources */,
 				BDD00DCD2BA8294600178CCA /* ScrollViewBasic.swift in Sources */,
+				BD7450892BDF679600C678CA /* SecondNatigationView.swift in Sources */,
 				BDF5B5A72BBBF61700011F79 /* BindingChild.swift in Sources */,
 				BDF5B59F2BBBF31600011F79 /* ExtractSubViewBasic.swift in Sources */,
 				BD835AE32B9ECF6A002EDF04 /* SwiftUI_PracticeApp.swift in Sources */,
