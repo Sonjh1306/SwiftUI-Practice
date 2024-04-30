@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD2C8EA42BE0B2E700DFEF37 /* ContextMenuBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2C8EA32BE0B2E700DFEF37 /* ContextMenuBasic.swift */; };
 		BD7450872BDF674800C678CA /* NavigationBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7450862BDF674800C678CA /* NavigationBasic.swift */; };
 		BD7450892BDF679600C678CA /* SecondNatigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7450882BDF679600C678CA /* SecondNatigationView.swift */; };
 		BD74508C2BDF6F4000C678CA /* ListBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD74508B2BDF6F4000C678CA /* ListBasic.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD2C8EA32BE0B2E700DFEF37 /* ContextMenuBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBasic.swift; sourceTree = "<group>"; };
 		BD7450862BDF674800C678CA /* NavigationBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBasic.swift; sourceTree = "<group>"; };
 		BD7450882BDF679600C678CA /* SecondNatigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondNatigationView.swift; sourceTree = "<group>"; };
 		BD74508B2BDF6F4000C678CA /* ListBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBasic.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 		BD835AE12B9ECF6A002EDF04 /* SwiftUI-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				BDE600E92BE0B28D00951C17 /* ContextMenu */,
 				BDE600E52BE0ACD300951C17 /* Alert */,
 				BD74508A2BDF6F3900C678CA /* List */,
 				BD7450852BDF671000C678CA /* Navigation */,
@@ -371,6 +374,14 @@
 			path = "믿ㄱㅅ";
 			sourceTree = "<group>";
 		};
+		BDE600E92BE0B28D00951C17 /* ContextMenu */ = {
+			isa = PBXGroup;
+			children = (
+				BD2C8EA32BE0B2E700DFEF37 /* ContextMenuBasic.swift */,
+			);
+			path = ContextMenu;
+			sourceTree = "<group>";
+		};
 		BDF5B59D2BBBF30100011F79 /* ExtractSubView */ = {
 			isa = PBXGroup;
 			children = (
@@ -494,6 +505,7 @@
 				BDF5B5A52BBBF59500011F79 /* BindingBasic.swift in Sources */,
 				BDB73D8F2BBE6BCA0097E2BF /* TransitionBasic.swift in Sources */,
 				BDD00DCD2BA8294600178CCA /* ScrollViewBasic.swift in Sources */,
+				BD2C8EA42BE0B2E700DFEF37 /* ContextMenuBasic.swift in Sources */,
 				BD7450892BDF679600C678CA /* SecondNatigationView.swift in Sources */,
 				BDF5B5A72BBBF61700011F79 /* BindingChild.swift in Sources */,
 				BDF5B59F2BBBF31600011F79 /* ExtractSubViewBasic.swift in Sources */,
