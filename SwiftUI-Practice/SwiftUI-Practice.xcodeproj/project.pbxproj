@@ -38,6 +38,7 @@
 		BDDF6F662BB291F500934A86 /* ButtonBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF6F652BB291F500934A86 /* ButtonBasic.swift */; };
 		BDE5FFAD2BC52CA2003A7C86 /* SheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5FFAC2BC52CA2003A7C86 /* SheetBasic.swift */; };
 		BDE5FFAF2BC52D02003A7C86 /* SheetBasic2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5FFAE2BC52D02003A7C86 /* SheetBasic2.swift */; };
+		BDE600E72BE0ACE500951C17 /* AlertBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE600E62BE0ACE500951C17 /* AlertBasic.swift */; };
 		BDF5B59F2BBBF31600011F79 /* ExtractSubViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B59E2BBBF31600011F79 /* ExtractSubViewBasic.swift */; };
 		BDF5B5A22BBBF37100011F79 /* ItemBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B5A12BBBF37100011F79 /* ItemBasic.swift */; };
 		BDF5B5A52BBBF59500011F79 /* BindingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B5A42BBBF59500011F79 /* BindingBasic.swift */; };
@@ -77,6 +78,7 @@
 		BDDF6F652BB291F500934A86 /* ButtonBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBasic.swift; sourceTree = "<group>"; };
 		BDE5FFAC2BC52CA2003A7C86 /* SheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetBasic.swift; sourceTree = "<group>"; };
 		BDE5FFAE2BC52D02003A7C86 /* SheetBasic2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetBasic2.swift; sourceTree = "<group>"; };
+		BDE600E62BE0ACE500951C17 /* AlertBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBasic.swift; sourceTree = "<group>"; };
 		BDF5B59E2BBBF31600011F79 /* ExtractSubViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubViewBasic.swift; sourceTree = "<group>"; };
 		BDF5B5A12BBBF37100011F79 /* ItemBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemBasic.swift; sourceTree = "<group>"; };
 		BDF5B5A42BBBF59500011F79 /* BindingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBasic.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 		BD835AE12B9ECF6A002EDF04 /* SwiftUI-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				BDE600E52BE0ACD300951C17 /* Alert */,
 				BD74508A2BDF6F3900C678CA /* List */,
 				BD7450852BDF671000C678CA /* Navigation */,
 				BDE5FFAB2BC52C8E003A7C86 /* Sheet */,
@@ -359,6 +362,15 @@
 			path = Sheet;
 			sourceTree = "<group>";
 		};
+		BDE600E52BE0ACD300951C17 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				BDE600E62BE0ACE500951C17 /* AlertBasic.swift */,
+			);
+			name = Alert;
+			path = "믿ㄱㅅ";
+			sourceTree = "<group>";
+		};
 		BDF5B59D2BBBF30100011F79 /* ExtractSubView */ = {
 			isa = PBXGroup;
 			children = (
@@ -465,6 +477,7 @@
 				BD835AE52B9ECF6A002EDF04 /* ContentView.swift in Sources */,
 				BDC424ED2BA922780050BFBC /* LazyGridBasic.swift in Sources */,
 				BD9FD3662BA02F92005B81FC /* BackgroundOverlayBasic.swift in Sources */,
+				BDE600E72BE0ACE500951C17 /* AlertBasic.swift in Sources */,
 				BDD00DC72BA81B2A00178CCA /* PaddingBasic.swift in Sources */,
 				BDE5FFAF2BC52D02003A7C86 /* SheetBasic2.swift in Sources */,
 				BDB73D862BBE3C9F0097E2BF /* ConditionalBasic.swift in Sources */,
