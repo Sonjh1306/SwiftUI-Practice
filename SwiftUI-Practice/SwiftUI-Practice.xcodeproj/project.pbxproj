@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD2C8EA42BE0B2E700DFEF37 /* ContextMenuBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2C8EA32BE0B2E700DFEF37 /* ContextMenuBasic.swift */; };
+		BD2C8EA72BE0B58E00DFEF37 /* ActionSheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2C8EA62BE0B58E00DFEF37 /* ActionSheetBasic.swift */; };
 		BD7450872BDF674800C678CA /* NavigationBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7450862BDF674800C678CA /* NavigationBasic.swift */; };
 		BD7450892BDF679600C678CA /* SecondNatigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7450882BDF679600C678CA /* SecondNatigationView.swift */; };
 		BD74508C2BDF6F4000C678CA /* ListBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD74508B2BDF6F4000C678CA /* ListBasic.swift */; };
@@ -48,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		BD2C8EA32BE0B2E700DFEF37 /* ContextMenuBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBasic.swift; sourceTree = "<group>"; };
+		BD2C8EA62BE0B58E00DFEF37 /* ActionSheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetBasic.swift; sourceTree = "<group>"; };
 		BD7450862BDF674800C678CA /* NavigationBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBasic.swift; sourceTree = "<group>"; };
 		BD7450882BDF679600C678CA /* SecondNatigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondNatigationView.swift; sourceTree = "<group>"; };
 		BD74508B2BDF6F4000C678CA /* ListBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBasic.swift; sourceTree = "<group>"; };
@@ -98,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD2C8EA52BE0B58200DFEF37 /* ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				BD2C8EA62BE0B58E00DFEF37 /* ActionSheetBasic.swift */,
+			);
+			path = ActionSheet;
+			sourceTree = "<group>";
+		};
 		BD7450852BDF671000C678CA /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +144,7 @@
 		BD835AE12B9ECF6A002EDF04 /* SwiftUI-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				BD2C8EA52BE0B58200DFEF37 /* ActionSheet */,
 				BDE600E92BE0B28D00951C17 /* ContextMenu */,
 				BDE600E52BE0ACD300951C17 /* Alert */,
 				BD74508A2BDF6F3900C678CA /* List */,
@@ -496,6 +507,7 @@
 				BD7450872BDF674800C678CA /* NavigationBasic.swift in Sources */,
 				BDD00DCA2BA820DD00178CCA /* SpacerBasic.swift in Sources */,
 				BDC4BCAF2B9EE10E00BB76E2 /* ColorBasic.swift in Sources */,
+				BD2C8EA72BE0B58E00DFEF37 /* ActionSheetBasic.swift in Sources */,
 				BDDA5C1E2BBA75E9002092EE /* StateBasic.swift in Sources */,
 				BDDA5C212BBA7824002092EE /* ExtractViewBasic.swift in Sources */,
 				BD9FD3612BA015BC005B81FC /* ImageBasic.swift in Sources */,
