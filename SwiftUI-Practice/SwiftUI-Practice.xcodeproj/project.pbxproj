@@ -21,6 +21,7 @@
 		BD835AEA2B9ECF6B002EDF04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD835AE92B9ECF6B002EDF04 /* Preview Assets.xcassets */; };
 		BD835AF12B9ED10F002EDF04 /* TextBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD835AF02B9ED10F002EDF04 /* TextBasic.swift */; };
 		BD835AF52B9ED649002EDF04 /* ShapeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD835AF42B9ED649002EDF04 /* ShapeBasic.swift */; };
+		BD9092C22BE4BB6700EFD5A5 /* ColorPickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9092C12BE4BB6700EFD5A5 /* ColorPickerBasic.swift */; };
 		BD9FD3612BA015BC005B81FC /* ImageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9FD3602BA015BC005B81FC /* ImageBasic.swift */; };
 		BD9FD3642BA017C7005B81FC /* FrameBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9FD3632BA017C7005B81FC /* FrameBasic.swift */; };
 		BD9FD3662BA02F92005B81FC /* BackgroundOverlayBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9FD3652BA02F92005B81FC /* BackgroundOverlayBasic.swift */; };
@@ -66,6 +67,7 @@
 		BD835AE92B9ECF6B002EDF04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD835AF02B9ED10F002EDF04 /* TextBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBasic.swift; sourceTree = "<group>"; };
 		BD835AF42B9ED649002EDF04 /* ShapeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeBasic.swift; sourceTree = "<group>"; };
+		BD9092C12BE4BB6700EFD5A5 /* ColorPickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerBasic.swift; sourceTree = "<group>"; };
 		BD9FD3602BA015BC005B81FC /* ImageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBasic.swift; sourceTree = "<group>"; };
 		BD9FD3632BA017C7005B81FC /* FrameBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBasic.swift; sourceTree = "<group>"; };
 		BD9FD3652BA02F92005B81FC /* BackgroundOverlayBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundOverlayBasic.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 		BD835AE12B9ECF6A002EDF04 /* SwiftUI-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				BD9092C02BE4BB5800EFD5A5 /* ColorPicker */,
 				BD5CEE3E2BE36FDA00B312CC /* Picker */,
 				BD5CEE3B2BE36A6000B312CC /* Toggle */,
 				BD5CEE382BE3669E00B312CC /* TextField */,
@@ -238,6 +241,14 @@
 				BD835AF42B9ED649002EDF04 /* ShapeBasic.swift */,
 			);
 			path = Shape;
+			sourceTree = "<group>";
+		};
+		BD9092C02BE4BB5800EFD5A5 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				BD9092C12BE4BB6700EFD5A5 /* ColorPickerBasic.swift */,
+			);
+			path = ColorPicker;
 			sourceTree = "<group>";
 		};
 		BD9FD35E2BA01528005B81FC /* Gradient */ = {
@@ -537,6 +548,7 @@
 				BDD00DC72BA81B2A00178CCA /* PaddingBasic.swift in Sources */,
 				BDE5FFAF2BC52D02003A7C86 /* SheetBasic2.swift in Sources */,
 				BDB73D862BBE3C9F0097E2BF /* ConditionalBasic.swift in Sources */,
+				BD9092C22BE4BB6700EFD5A5 /* ColorPickerBasic.swift in Sources */,
 				BD835AF52B9ED649002EDF04 /* ShapeBasic.swift in Sources */,
 				BD7450872BDF674800C678CA /* NavigationBasic.swift in Sources */,
 				BDD00DCA2BA820DD00178CCA /* SpacerBasic.swift in Sources */,
