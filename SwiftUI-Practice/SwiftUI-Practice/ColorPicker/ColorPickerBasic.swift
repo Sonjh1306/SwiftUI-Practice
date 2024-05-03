@@ -24,7 +24,7 @@ struct ColorPickerBasic: View {
             .cornerRadius(10)
             .foregroundColor(.white)
             .font(.headline)
-            .padding(50)                
+            .padding(50)
         }
     }
 }
