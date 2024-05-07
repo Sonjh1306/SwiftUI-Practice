@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD2054972BEA103B0015B731 /* TabViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2054962BEA103B0015B731 /* TabViewBasic.swift */; };
+		BD20549A2BEA12C60015B731 /* DarkModeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2054992BEA12C60015B731 /* DarkModeBasic.swift */; };
 		BD2C8EA42BE0B2E700DFEF37 /* ContextMenuBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2C8EA32BE0B2E700DFEF37 /* ContextMenuBasic.swift */; };
 		BD2C8EA72BE0B58E00DFEF37 /* ActionSheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2C8EA62BE0B58E00DFEF37 /* ActionSheetBasic.swift */; };
 		BD5CEE3A2BE366A700B312CC /* TextFieldBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5CEE392BE366A700B312CC /* TextFieldBasic.swift */; };
@@ -56,6 +57,7 @@
 
 /* Begin PBXFileReference section */
 		BD2054962BEA103B0015B731 /* TabViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBasic.swift; sourceTree = "<group>"; };
+		BD2054992BEA12C60015B731 /* DarkModeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeBasic.swift; sourceTree = "<group>"; };
 		BD2C8EA32BE0B2E700DFEF37 /* ContextMenuBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBasic.swift; sourceTree = "<group>"; };
 		BD2C8EA62BE0B58E00DFEF37 /* ActionSheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetBasic.swift; sourceTree = "<group>"; };
 		BD5CEE392BE366A700B312CC /* TextFieldBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBasic.swift; sourceTree = "<group>"; };
@@ -120,6 +122,14 @@
 				BD2054962BEA103B0015B731 /* TabViewBasic.swift */,
 			);
 			path = TabView;
+			sourceTree = "<group>";
+		};
+		BD2054982BEA12B50015B731 /* DarkMode */ = {
+			isa = PBXGroup;
+			children = (
+				BD2054992BEA12C60015B731 /* DarkModeBasic.swift */,
+			);
+			path = DarkMode;
 			sourceTree = "<group>";
 		};
 		BD2C8EA52BE0B58200DFEF37 /* ActionSheet */ = {
@@ -190,6 +200,7 @@
 		BD835AE12B9ECF6A002EDF04 /* SwiftUI-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				BD2054982BEA12B50015B731 /* DarkMode */,
 				BD2054952BEA102F0015B731 /* TabView */,
 				BD9092C92BE4C6D900EFD5A5 /* Slider */,
 				BD9092C62BE4C51000EFD5A5 /* Stepper */,
@@ -592,6 +603,7 @@
 				BD9FD3612BA015BC005B81FC /* ImageBasic.swift in Sources */,
 				BD5CEE3A2BE366A700B312CC /* TextFieldBasic.swift in Sources */,
 				BD5CEE3D2BE36A6700B312CC /* ToggleBasic.swift in Sources */,
+				BD20549A2BEA12C60015B731 /* DarkModeBasic.swift in Sources */,
 				BDC424EA2BA91FFE0050BFBC /* ForEachBasic.swift in Sources */,
 				BDDF6F662BB291F500934A86 /* ButtonBasic.swift in Sources */,
 				BDDF6F632BB28B6400934A86 /* IgnoreSafeAreaBasic.swift in Sources */,
