@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD2054972BEA103B0015B731 /* TabViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2054962BEA103B0015B731 /* TabViewBasic.swift */; };
 		BD2C8EA42BE0B2E700DFEF37 /* ContextMenuBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2C8EA32BE0B2E700DFEF37 /* ContextMenuBasic.swift */; };
 		BD2C8EA72BE0B58E00DFEF37 /* ActionSheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2C8EA62BE0B58E00DFEF37 /* ActionSheetBasic.swift */; };
 		BD5CEE3A2BE366A700B312CC /* TextFieldBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5CEE392BE366A700B312CC /* TextFieldBasic.swift */; };
@@ -54,6 +55,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD2054962BEA103B0015B731 /* TabViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBasic.swift; sourceTree = "<group>"; };
 		BD2C8EA32BE0B2E700DFEF37 /* ContextMenuBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBasic.swift; sourceTree = "<group>"; };
 		BD2C8EA62BE0B58E00DFEF37 /* ActionSheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetBasic.swift; sourceTree = "<group>"; };
 		BD5CEE392BE366A700B312CC /* TextFieldBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBasic.swift; sourceTree = "<group>"; };
@@ -112,6 +114,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD2054952BEA102F0015B731 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				BD2054962BEA103B0015B731 /* TabViewBasic.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
 		BD2C8EA52BE0B58200DFEF37 /* ActionSheet */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +190,7 @@
 		BD835AE12B9ECF6A002EDF04 /* SwiftUI-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				BD2054952BEA102F0015B731 /* TabView */,
 				BD9092C92BE4C6D900EFD5A5 /* Slider */,
 				BD9092C62BE4C51000EFD5A5 /* Stepper */,
 				BD9092C02BE4BB5800EFD5A5 /* ColorPicker */,
@@ -590,6 +601,7 @@
 				BD2C8EA42BE0B2E700DFEF37 /* ContextMenuBasic.swift in Sources */,
 				BD7450892BDF679600C678CA /* SecondNatigationView.swift in Sources */,
 				BDF5B5A72BBBF61700011F79 /* BindingChild.swift in Sources */,
+				BD2054972BEA103B0015B731 /* TabViewBasic.swift in Sources */,
 				BDF5B59F2BBBF31600011F79 /* ExtractSubViewBasic.swift in Sources */,
 				BD9092C82BE4C51C00EFD5A5 /* StepperBasic.swift in Sources */,
 				BD835AE32B9ECF6A002EDF04 /* SwiftUI_PracticeApp.swift in Sources */,
