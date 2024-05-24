@@ -12,6 +12,7 @@
 		BD20549D2BEA15000015B731 /* OnAppearBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD20549C2BEA15000015B731 /* OnAppearBasic.swift */; };
 		BD2C8EA42BE0B2E700DFEF37 /* ContextMenuBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2C8EA32BE0B2E700DFEF37 /* ContextMenuBasic.swift */; };
 		BD2C8EA72BE0B58E00DFEF37 /* ActionSheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2C8EA62BE0B58E00DFEF37 /* ActionSheetBasic.swift */; };
+		BD3E18662C0057960095FC67 /* OnTabGestureBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3E18652C0057960095FC67 /* OnTabGestureBasic.swift */; };
 		BD5CEE3A2BE366A700B312CC /* TextFieldBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5CEE392BE366A700B312CC /* TextFieldBasic.swift */; };
 		BD5CEE3D2BE36A6700B312CC /* ToggleBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5CEE3C2BE36A6700B312CC /* ToggleBasic.swift */; };
 		BD5CEE402BE36FE400B312CC /* PickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5CEE3F2BE36FE400B312CC /* PickerBasic.swift */; };
@@ -62,6 +63,7 @@
 		BD20549C2BEA15000015B731 /* OnAppearBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearBasic.swift; sourceTree = "<group>"; };
 		BD2C8EA32BE0B2E700DFEF37 /* ContextMenuBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBasic.swift; sourceTree = "<group>"; };
 		BD2C8EA62BE0B58E00DFEF37 /* ActionSheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetBasic.swift; sourceTree = "<group>"; };
+		BD3E18652C0057960095FC67 /* OnTabGestureBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTabGestureBasic.swift; sourceTree = "<group>"; };
 		BD5CEE392BE366A700B312CC /* TextFieldBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBasic.swift; sourceTree = "<group>"; };
 		BD5CEE3C2BE36A6700B312CC /* ToggleBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBasic.swift; sourceTree = "<group>"; };
 		BD5CEE3F2BE36FE400B312CC /* PickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBasic.swift; sourceTree = "<group>"; };
@@ -150,6 +152,14 @@
 			path = ActionSheet;
 			sourceTree = "<group>";
 		};
+		BD3E18642C0057800095FC67 /* OnTabGestureBasic */ = {
+			isa = PBXGroup;
+			children = (
+				BD3E18652C0057960095FC67 /* OnTabGestureBasic.swift */,
+			);
+			path = OnTabGestureBasic;
+			sourceTree = "<group>";
+		};
 		BD5CEE382BE3669E00B312CC /* TextField */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +220,7 @@
 		BD835AE12B9ECF6A002EDF04 /* SwiftUI-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				BD3E18642C0057800095FC67 /* OnTabGestureBasic */,
 				BD20549B2BEA14F00015B731 /* OnAppearBasic */,
 				BD2054982BEA12B50015B731 /* DarkMode */,
 				BD2054952BEA102F0015B731 /* TabView */,
@@ -614,6 +625,7 @@
 				BD9FD3612BA015BC005B81FC /* ImageBasic.swift in Sources */,
 				BD5CEE3A2BE366A700B312CC /* TextFieldBasic.swift in Sources */,
 				BD5CEE3D2BE36A6700B312CC /* ToggleBasic.swift in Sources */,
+				BD3E18662C0057960095FC67 /* OnTabGestureBasic.swift in Sources */,
 				BD20549A2BEA12C60015B731 /* DarkModeBasic.swift in Sources */,
 				BDC424EA2BA91FFE0050BFBC /* ForEachBasic.swift in Sources */,
 				BD20549D2BEA15000015B731 /* OnAppearBasic.swift in Sources */,
