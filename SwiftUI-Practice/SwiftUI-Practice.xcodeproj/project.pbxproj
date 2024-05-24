@@ -15,6 +15,9 @@
 		BD3E18662C0057960095FC67 /* OnTabGestureBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3E18652C0057960095FC67 /* OnTabGestureBasic.swift */; };
 		BD3E186D2C005B7A0095FC67 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3E186C2C005B7A0095FC67 /* UserModel.swift */; };
 		BD3E186F2C0062CB0095FC67 /* UserModelBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3E186E2C0062CB0095FC67 /* UserModelBasicView.swift */; };
+		BD3E18712C006A140095FC67 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3E18702C006A140095FC67 /* FruitModel.swift */; };
+		BD3E18732C006A4B0095FC67 /* FruitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3E18722C006A4B0095FC67 /* FruitViewModel.swift */; };
+		BD3E18752C006F2F0095FC67 /* FruitBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3E18742C006F2F0095FC67 /* FruitBasicView.swift */; };
 		BD5CEE3A2BE366A700B312CC /* TextFieldBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5CEE392BE366A700B312CC /* TextFieldBasic.swift */; };
 		BD5CEE3D2BE36A6700B312CC /* ToggleBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5CEE3C2BE36A6700B312CC /* ToggleBasic.swift */; };
 		BD5CEE402BE36FE400B312CC /* PickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5CEE3F2BE36FE400B312CC /* PickerBasic.swift */; };
@@ -68,6 +71,9 @@
 		BD3E18652C0057960095FC67 /* OnTabGestureBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTabGestureBasic.swift; sourceTree = "<group>"; };
 		BD3E186C2C005B7A0095FC67 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		BD3E186E2C0062CB0095FC67 /* UserModelBasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelBasicView.swift; sourceTree = "<group>"; };
+		BD3E18702C006A140095FC67 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
+		BD3E18722C006A4B0095FC67 /* FruitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitViewModel.swift; sourceTree = "<group>"; };
+		BD3E18742C006F2F0095FC67 /* FruitBasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitBasicView.swift; sourceTree = "<group>"; };
 		BD5CEE392BE366A700B312CC /* TextFieldBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBasic.swift; sourceTree = "<group>"; };
 		BD5CEE3C2BE36A6700B312CC /* ToggleBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBasic.swift; sourceTree = "<group>"; };
 		BD5CEE3F2BE36FE400B312CC /* PickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBasic.swift; sourceTree = "<group>"; };
@@ -226,6 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				BD3E186E2C0062CB0095FC67 /* UserModelBasicView.swift */,
+				BD3E18742C006F2F0095FC67 /* FruitBasicView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -233,6 +240,7 @@
 		BD3E186A2C005B530095FC67 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				BD3E18722C006A4B0095FC67 /* FruitViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -241,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				BD3E186C2C005B7A0095FC67 /* UserModel.swift */,
+				BD3E18702C006A140095FC67 /* FruitModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -681,15 +690,18 @@
 				BDDF6F632BB28B6400934A86 /* IgnoreSafeAreaBasic.swift in Sources */,
 				BDF5B5A52BBBF59500011F79 /* BindingBasic.swift in Sources */,
 				BDB73D8F2BBE6BCA0097E2BF /* TransitionBasic.swift in Sources */,
+				BD3E18732C006A4B0095FC67 /* FruitViewModel.swift in Sources */,
 				BDD00DCD2BA8294600178CCA /* ScrollViewBasic.swift in Sources */,
 				BD2C8EA42BE0B2E700DFEF37 /* ContextMenuBasic.swift in Sources */,
 				BD7450892BDF679600C678CA /* SecondNatigationView.swift in Sources */,
 				BDF5B5A72BBBF61700011F79 /* BindingChild.swift in Sources */,
 				BD2054972BEA103B0015B731 /* TabViewBasic.swift in Sources */,
 				BDF5B59F2BBBF31600011F79 /* ExtractSubViewBasic.swift in Sources */,
+				BD3E18712C006A140095FC67 /* FruitModel.swift in Sources */,
 				BD9092C82BE4C51C00EFD5A5 /* StepperBasic.swift in Sources */,
 				BD835AE32B9ECF6A002EDF04 /* SwiftUI_PracticeApp.swift in Sources */,
 				BD9092CB2BE4C6E500EFD5A5 /* SliderBasic.swift in Sources */,
+				BD3E18752C006F2F0095FC67 /* FruitBasicView.swift in Sources */,
 				BDF5B5A22BBBF37100011F79 /* ItemBasic.swift in Sources */,
 				BDB73D8C2BBE48690097E2BF /* AnimationBasic.swift in Sources */,
 			);
