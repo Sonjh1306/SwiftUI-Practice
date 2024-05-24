@@ -13,6 +13,8 @@
 		BD2C8EA42BE0B2E700DFEF37 /* ContextMenuBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2C8EA32BE0B2E700DFEF37 /* ContextMenuBasic.swift */; };
 		BD2C8EA72BE0B58E00DFEF37 /* ActionSheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2C8EA62BE0B58E00DFEF37 /* ActionSheetBasic.swift */; };
 		BD3E18662C0057960095FC67 /* OnTabGestureBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3E18652C0057960095FC67 /* OnTabGestureBasic.swift */; };
+		BD3E186D2C005B7A0095FC67 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3E186C2C005B7A0095FC67 /* UserModel.swift */; };
+		BD3E186F2C0062CB0095FC67 /* UserModelBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3E186E2C0062CB0095FC67 /* UserModelBasicView.swift */; };
 		BD5CEE3A2BE366A700B312CC /* TextFieldBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5CEE392BE366A700B312CC /* TextFieldBasic.swift */; };
 		BD5CEE3D2BE36A6700B312CC /* ToggleBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5CEE3C2BE36A6700B312CC /* ToggleBasic.swift */; };
 		BD5CEE402BE36FE400B312CC /* PickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5CEE3F2BE36FE400B312CC /* PickerBasic.swift */; };
@@ -64,6 +66,8 @@
 		BD2C8EA32BE0B2E700DFEF37 /* ContextMenuBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBasic.swift; sourceTree = "<group>"; };
 		BD2C8EA62BE0B58E00DFEF37 /* ActionSheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetBasic.swift; sourceTree = "<group>"; };
 		BD3E18652C0057960095FC67 /* OnTabGestureBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTabGestureBasic.swift; sourceTree = "<group>"; };
+		BD3E186C2C005B7A0095FC67 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		BD3E186E2C0062CB0095FC67 /* UserModelBasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelBasicView.swift; sourceTree = "<group>"; };
 		BD5CEE392BE366A700B312CC /* TextFieldBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBasic.swift; sourceTree = "<group>"; };
 		BD5CEE3C2BE36A6700B312CC /* ToggleBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBasic.swift; sourceTree = "<group>"; };
 		BD5CEE3F2BE36FE400B312CC /* PickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBasic.swift; sourceTree = "<group>"; };
@@ -160,6 +164,87 @@
 			path = OnTabGestureBasic;
 			sourceTree = "<group>";
 		};
+		BD3E18672C005B350095FC67 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				BD3E18642C0057800095FC67 /* OnTabGestureBasic */,
+				BD20549B2BEA14F00015B731 /* OnAppearBasic */,
+				BD2054982BEA12B50015B731 /* DarkMode */,
+				BD2054952BEA102F0015B731 /* TabView */,
+				BD9092C92BE4C6D900EFD5A5 /* Slider */,
+				BD9092C62BE4C51000EFD5A5 /* Stepper */,
+				BD9092C02BE4BB5800EFD5A5 /* ColorPicker */,
+				BD5CEE3E2BE36FDA00B312CC /* Picker */,
+				BD5CEE3B2BE36A6000B312CC /* Toggle */,
+				BD5CEE382BE3669E00B312CC /* TextField */,
+				BD2C8EA52BE0B58200DFEF37 /* ActionSheet */,
+				BDE600E92BE0B28D00951C17 /* ContextMenu */,
+				BDE600E52BE0ACD300951C17 /* Alert */,
+				BD74508A2BDF6F3900C678CA /* List */,
+				BD7450852BDF671000C678CA /* Navigation */,
+				BDE5FFAB2BC52C8E003A7C86 /* Sheet */,
+				BDB73D8D2BBE6BBF0097E2BF /* Transition */,
+				BDB73D8A2BBE48610097E2BF /* Animation */,
+				BDB73D872BBE3EF60097E2BF /* TernaryOperators */,
+				BDB73D842BBE3C900097E2BF /* Conditional */,
+				BDF5B5A02BBBF31F00011F79 /* Component */,
+				BDF5B5A32BBBF58100011F79 /* Binding */,
+				BDF5B59D2BBBF30100011F79 /* ExtractSubView */,
+				BDDA5C1F2BBA7814002092EE /* ExtractView */,
+				BDDA5C1C2BBA75D9002092EE /* State */,
+				BDDF6F642BB291EC00934A86 /* Button */,
+				BDDF6F612BB28B3300934A86 /* SafeArea */,
+				BDC424EB2BA9226E0050BFBC /* LazyGrid */,
+				BDC424E82BA91FEF0050BFBC /* ForEach */,
+				BDC424E52BA918330050BFBC /* Init, enum */,
+				BDD00DCB2BA8293700178CCA /* ScrollView */,
+				BDD00DC82BA820C600178CCA /* Spacer */,
+				BDD00DC52BA81B1F00178CCA /* Padding */,
+				BD9FD3682BA0380D005B81FC /* Stack */,
+				BD9FD3672BA02FC6005B81FC /* BackgroundOverlayBasic */,
+				BD9FD3622BA0177F005B81FC /* Frame */,
+				BD9FD35F2BA01535005B81FC /* Image */,
+				BD9FD35E2BA01528005B81FC /* Gradient */,
+				BDC4BCB02B9EE40C00BB76E2 /* Color */,
+				BD835AF32B9ED636002EDF04 /* Shape */,
+				BD835AF22B9ED62E002EDF04 /* Text */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		BD3E18682C005B420095FC67 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				BD3E186B2C005B560095FC67 /* Model */,
+				BD3E186A2C005B530095FC67 /* ViewModel */,
+				BD3E18692C005B500095FC67 /* View */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		BD3E18692C005B500095FC67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD3E186E2C0062CB0095FC67 /* UserModelBasicView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD3E186A2C005B530095FC67 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BD3E186B2C005B560095FC67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD3E186C2C005B7A0095FC67 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		BD5CEE382BE3669E00B312CC /* TextField */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,47 +305,8 @@
 		BD835AE12B9ECF6A002EDF04 /* SwiftUI-Practice */ = {
 			isa = PBXGroup;
 			children = (
-				BD3E18642C0057800095FC67 /* OnTabGestureBasic */,
-				BD20549B2BEA14F00015B731 /* OnAppearBasic */,
-				BD2054982BEA12B50015B731 /* DarkMode */,
-				BD2054952BEA102F0015B731 /* TabView */,
-				BD9092C92BE4C6D900EFD5A5 /* Slider */,
-				BD9092C62BE4C51000EFD5A5 /* Stepper */,
-				BD9092C02BE4BB5800EFD5A5 /* ColorPicker */,
-				BD5CEE3E2BE36FDA00B312CC /* Picker */,
-				BD5CEE3B2BE36A6000B312CC /* Toggle */,
-				BD5CEE382BE3669E00B312CC /* TextField */,
-				BD2C8EA52BE0B58200DFEF37 /* ActionSheet */,
-				BDE600E92BE0B28D00951C17 /* ContextMenu */,
-				BDE600E52BE0ACD300951C17 /* Alert */,
-				BD74508A2BDF6F3900C678CA /* List */,
-				BD7450852BDF671000C678CA /* Navigation */,
-				BDE5FFAB2BC52C8E003A7C86 /* Sheet */,
-				BDB73D8D2BBE6BBF0097E2BF /* Transition */,
-				BDB73D8A2BBE48610097E2BF /* Animation */,
-				BDB73D872BBE3EF60097E2BF /* TernaryOperators */,
-				BDB73D842BBE3C900097E2BF /* Conditional */,
-				BDF5B5A02BBBF31F00011F79 /* Component */,
-				BDF5B5A32BBBF58100011F79 /* Binding */,
-				BDF5B59D2BBBF30100011F79 /* ExtractSubView */,
-				BDDA5C1F2BBA7814002092EE /* ExtractView */,
-				BDDA5C1C2BBA75D9002092EE /* State */,
-				BDDF6F642BB291EC00934A86 /* Button */,
-				BDDF6F612BB28B3300934A86 /* SafeArea */,
-				BDC424EB2BA9226E0050BFBC /* LazyGrid */,
-				BDC424E82BA91FEF0050BFBC /* ForEach */,
-				BDC424E52BA918330050BFBC /* Init, enum */,
-				BDD00DCB2BA8293700178CCA /* ScrollView */,
-				BDD00DC82BA820C600178CCA /* Spacer */,
-				BDD00DC52BA81B1F00178CCA /* Padding */,
-				BD9FD3682BA0380D005B81FC /* Stack */,
-				BD9FD3672BA02FC6005B81FC /* BackgroundOverlayBasic */,
-				BD9FD3622BA0177F005B81FC /* Frame */,
-				BD9FD35F2BA01535005B81FC /* Image */,
-				BD9FD35E2BA01528005B81FC /* Gradient */,
-				BDC4BCB02B9EE40C00BB76E2 /* Color */,
-				BD835AF32B9ED636002EDF04 /* Shape */,
-				BD835AF22B9ED62E002EDF04 /* Text */,
+				BD3E18682C005B420095FC67 /* MVVM */,
+				BD3E18672C005B350095FC67 /* Basic */,
 				BD835AE22B9ECF6A002EDF04 /* SwiftUI_PracticeApp.swift */,
 				BD835AE42B9ECF6A002EDF04 /* ContentView.swift */,
 				BD835AE62B9ECF6B002EDF04 /* Assets.xcassets */,
@@ -599,6 +645,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD9FD3642BA017C7005B81FC /* FrameBasic.swift in Sources */,
+				BD3E186F2C0062CB0095FC67 /* UserModelBasicView.swift in Sources */,
 				BD9FD36A2BA03815005B81FC /* StackBasic.swift in Sources */,
 				BDB73D892BBE3F0D0097E2BF /* TernaryOperatorsBasic.swift in Sources */,
 				BDC4BCB22B9EE71800BB76E2 /* GradientBasic.swift in Sources */,
@@ -616,6 +663,7 @@
 				BDB73D862BBE3C9F0097E2BF /* ConditionalBasic.swift in Sources */,
 				BD9092C22BE4BB6700EFD5A5 /* ColorPickerBasic.swift in Sources */,
 				BD835AF52B9ED649002EDF04 /* ShapeBasic.swift in Sources */,
+				BD3E186D2C005B7A0095FC67 /* UserModel.swift in Sources */,
 				BD7450872BDF674800C678CA /* NavigationBasic.swift in Sources */,
 				BDD00DCA2BA820DD00178CCA /* SpacerBasic.swift in Sources */,
 				BDC4BCAF2B9EE10E00BB76E2 /* ColorBasic.swift in Sources */,
