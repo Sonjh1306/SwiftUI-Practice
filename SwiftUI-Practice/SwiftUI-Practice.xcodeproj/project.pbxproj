@@ -17,6 +17,7 @@
 		BD338E1D2C04262900E7F2E7 /* IOSDeviceView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD338E1C2C04262900E7F2E7 /* IOSDeviceView1.swift */; };
 		BD338E1F2C0426A100E7F2E7 /* IOSDeviceView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD338E1E2C0426A100E7F2E7 /* IOSDeviceView2.swift */; };
 		BD338E212C04276600E7F2E7 /* IOSDeviceView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD338E202C04276600E7F2E7 /* IOSDeviceView3.swift */; };
+		BD338E242C042B4E00E7F2E7 /* AppStorageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD338E232C042B4E00E7F2E7 /* AppStorageBasic.swift */; };
 		BD3E18662C0057960095FC67 /* OnTabGestureBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3E18652C0057960095FC67 /* OnTabGestureBasic.swift */; };
 		BD3E186D2C005B7A0095FC67 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3E186C2C005B7A0095FC67 /* UserModel.swift */; };
 		BD3E186F2C0062CB0095FC67 /* UserModelBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3E186E2C0062CB0095FC67 /* UserModelBasicView.swift */; };
@@ -78,6 +79,7 @@
 		BD338E1C2C04262900E7F2E7 /* IOSDeviceView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView1.swift; sourceTree = "<group>"; };
 		BD338E1E2C0426A100E7F2E7 /* IOSDeviceView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView2.swift; sourceTree = "<group>"; };
 		BD338E202C04276600E7F2E7 /* IOSDeviceView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView3.swift; sourceTree = "<group>"; };
+		BD338E232C042B4E00E7F2E7 /* AppStorageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageBasic.swift; sourceTree = "<group>"; };
 		BD3E18652C0057960095FC67 /* OnTabGestureBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTabGestureBasic.swift; sourceTree = "<group>"; };
 		BD3E186C2C005B7A0095FC67 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		BD3E186E2C0062CB0095FC67 /* UserModelBasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelBasicView.swift; sourceTree = "<group>"; };
@@ -172,6 +174,14 @@
 			path = ActionSheet;
 			sourceTree = "<group>";
 		};
+		BD338E222C042B3B00E7F2E7 /* AppStorageBasic */ = {
+			isa = PBXGroup;
+			children = (
+				BD338E232C042B4E00E7F2E7 /* AppStorageBasic.swift */,
+			);
+			path = AppStorageBasic;
+			sourceTree = "<group>";
+		};
 		BD3E18642C0057800095FC67 /* OnTabGestureBasic */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +193,7 @@
 		BD3E18672C005B350095FC67 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
+				BD338E222C042B3B00E7F2E7 /* AppStorageBasic */,
 				BD3E18642C0057800095FC67 /* OnTabGestureBasic */,
 				BD20549B2BEA14F00015B731 /* OnAppearBasic */,
 				BD2054982BEA12B50015B731 /* DarkMode */,
@@ -703,6 +714,7 @@
 				BD5CEE3D2BE36A6700B312CC /* ToggleBasic.swift in Sources */,
 				BD3E18662C0057960095FC67 /* OnTabGestureBasic.swift in Sources */,
 				BD20549A2BEA12C60015B731 /* DarkModeBasic.swift in Sources */,
+				BD338E242C042B4E00E7F2E7 /* AppStorageBasic.swift in Sources */,
 				BDC424EA2BA91FFE0050BFBC /* ForEachBasic.swift in Sources */,
 				BD20549D2BEA15000015B731 /* OnAppearBasic.swift in Sources */,
 				BDDF6F662BB291F500934A86 /* ButtonBasic.swift in Sources */,
