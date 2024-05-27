@@ -12,6 +12,11 @@
 		BD20549D2BEA15000015B731 /* OnAppearBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD20549C2BEA15000015B731 /* OnAppearBasic.swift */; };
 		BD2C8EA42BE0B2E700DFEF37 /* ContextMenuBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2C8EA32BE0B2E700DFEF37 /* ContextMenuBasic.swift */; };
 		BD2C8EA72BE0B58E00DFEF37 /* ActionSheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2C8EA62BE0B58E00DFEF37 /* ActionSheetBasic.swift */; };
+		BD338E192C04257000E7F2E7 /* IOSDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD338E182C04257000E7F2E7 /* IOSDeviceModel.swift */; };
+		BD338E1B2C04259700E7F2E7 /* IOSDeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD338E1A2C04259700E7F2E7 /* IOSDeviceViewModel.swift */; };
+		BD338E1D2C04262900E7F2E7 /* IOSDeviceView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD338E1C2C04262900E7F2E7 /* IOSDeviceView1.swift */; };
+		BD338E1F2C0426A100E7F2E7 /* IOSDeviceView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD338E1E2C0426A100E7F2E7 /* IOSDeviceView2.swift */; };
+		BD338E212C04276600E7F2E7 /* IOSDeviceView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD338E202C04276600E7F2E7 /* IOSDeviceView3.swift */; };
 		BD3E18662C0057960095FC67 /* OnTabGestureBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3E18652C0057960095FC67 /* OnTabGestureBasic.swift */; };
 		BD3E186D2C005B7A0095FC67 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3E186C2C005B7A0095FC67 /* UserModel.swift */; };
 		BD3E186F2C0062CB0095FC67 /* UserModelBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3E186E2C0062CB0095FC67 /* UserModelBasicView.swift */; };
@@ -68,6 +73,11 @@
 		BD20549C2BEA15000015B731 /* OnAppearBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearBasic.swift; sourceTree = "<group>"; };
 		BD2C8EA32BE0B2E700DFEF37 /* ContextMenuBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBasic.swift; sourceTree = "<group>"; };
 		BD2C8EA62BE0B58E00DFEF37 /* ActionSheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetBasic.swift; sourceTree = "<group>"; };
+		BD338E182C04257000E7F2E7 /* IOSDeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceModel.swift; sourceTree = "<group>"; };
+		BD338E1A2C04259700E7F2E7 /* IOSDeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceViewModel.swift; sourceTree = "<group>"; };
+		BD338E1C2C04262900E7F2E7 /* IOSDeviceView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView1.swift; sourceTree = "<group>"; };
+		BD338E1E2C0426A100E7F2E7 /* IOSDeviceView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView2.swift; sourceTree = "<group>"; };
+		BD338E202C04276600E7F2E7 /* IOSDeviceView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView3.swift; sourceTree = "<group>"; };
 		BD3E18652C0057960095FC67 /* OnTabGestureBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTabGestureBasic.swift; sourceTree = "<group>"; };
 		BD3E186C2C005B7A0095FC67 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		BD3E186E2C0062CB0095FC67 /* UserModelBasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelBasicView.swift; sourceTree = "<group>"; };
@@ -233,6 +243,9 @@
 			children = (
 				BD3E186E2C0062CB0095FC67 /* UserModelBasicView.swift */,
 				BD3E18742C006F2F0095FC67 /* FruitBasicView.swift */,
+				BD338E1C2C04262900E7F2E7 /* IOSDeviceView1.swift */,
+				BD338E1E2C0426A100E7F2E7 /* IOSDeviceView2.swift */,
+				BD338E202C04276600E7F2E7 /* IOSDeviceView3.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -241,6 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				BD3E18722C006A4B0095FC67 /* FruitViewModel.swift */,
+				BD338E1A2C04259700E7F2E7 /* IOSDeviceViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -250,6 +264,7 @@
 			children = (
 				BD3E186C2C005B7A0095FC67 /* UserModel.swift */,
 				BD3E18702C006A140095FC67 /* FruitModel.swift */,
+				BD338E182C04257000E7F2E7 /* IOSDeviceModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -653,6 +668,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD338E212C04276600E7F2E7 /* IOSDeviceView3.swift in Sources */,
 				BD9FD3642BA017C7005B81FC /* FrameBasic.swift in Sources */,
 				BD3E186F2C0062CB0095FC67 /* UserModelBasicView.swift in Sources */,
 				BD9FD36A2BA03815005B81FC /* StackBasic.swift in Sources */,
@@ -671,6 +687,7 @@
 				BDE5FFAF2BC52D02003A7C86 /* SheetBasic2.swift in Sources */,
 				BDB73D862BBE3C9F0097E2BF /* ConditionalBasic.swift in Sources */,
 				BD9092C22BE4BB6700EFD5A5 /* ColorPickerBasic.swift in Sources */,
+				BD338E1D2C04262900E7F2E7 /* IOSDeviceView1.swift in Sources */,
 				BD835AF52B9ED649002EDF04 /* ShapeBasic.swift in Sources */,
 				BD3E186D2C005B7A0095FC67 /* UserModel.swift in Sources */,
 				BD7450872BDF674800C678CA /* NavigationBasic.swift in Sources */,
@@ -678,6 +695,8 @@
 				BDC4BCAF2B9EE10E00BB76E2 /* ColorBasic.swift in Sources */,
 				BD2C8EA72BE0B58E00DFEF37 /* ActionSheetBasic.swift in Sources */,
 				BDDA5C1E2BBA75E9002092EE /* StateBasic.swift in Sources */,
+				BD338E1F2C0426A100E7F2E7 /* IOSDeviceView2.swift in Sources */,
+				BD338E1B2C04259700E7F2E7 /* IOSDeviceViewModel.swift in Sources */,
 				BDDA5C212BBA7824002092EE /* ExtractViewBasic.swift in Sources */,
 				BD9FD3612BA015BC005B81FC /* ImageBasic.swift in Sources */,
 				BD5CEE3A2BE366A700B312CC /* TextFieldBasic.swift in Sources */,
@@ -696,6 +715,7 @@
 				BD7450892BDF679600C678CA /* SecondNatigationView.swift in Sources */,
 				BDF5B5A72BBBF61700011F79 /* BindingChild.swift in Sources */,
 				BD2054972BEA103B0015B731 /* TabViewBasic.swift in Sources */,
+				BD338E192C04257000E7F2E7 /* IOSDeviceModel.swift in Sources */,
 				BDF5B59F2BBBF31600011F79 /* ExtractSubViewBasic.swift in Sources */,
 				BD3E18712C006A140095FC67 /* FruitModel.swift in Sources */,
 				BD9092C82BE4C51C00EFD5A5 /* StepperBasic.swift in Sources */,
